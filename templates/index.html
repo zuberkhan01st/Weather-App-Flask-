@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="brand">Weather App by ZK_CREATIONS</h1>
+        <div class="weather-app">
+            <h2>Weather App</h2>
+            <form method="post" action="/weather">
+                <input type="text" id="city" name="city" placeholder="Enter city name" required>
+                <button type="submit">Get Weather</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
