@@ -23,7 +23,7 @@ Clone the Repository
 
 bash
 Copy code
-git clone https://github.com/zuberkhan01st/WeatherApp-Flask-/
+git clone [https://github.com/zuberkhan01st/WeatherApp-Flask-/](https://github.com/zuberkhan01st/Weather-App-Flask-)
 cd weather-app
 Install Dependencies
 
@@ -69,7 +69,7 @@ Weather description (e.g., Clear sky).
 Wind speed.
 Current date and time of the request.
 Weather icon representing the current weather condition.
-Screenshots
+
 Home Page
 
 Weather Result
